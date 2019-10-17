@@ -32,7 +32,7 @@
     <IsWebBootstrapper>True</IsWebBootstrapper>
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <PublishUrl>publish\</PublishUrl>
-    <InstallUrl>https://github.com/AnweshPaila/FAST-23-08-19/tree/master/Test_WorkBookOpen/publish/</InstallUrl>
+    <InstallUrl>https://raw.githubusercontent.com/AnweshPaila/FAST/master/Test_WorkBookOpen/publish/</InstallUrl>
     <TargetCulture>en</TargetCulture>
     <ApplicationVersion>3.0.0.175</ApplicationVersion>
     <AutoIncrementApplicationRevision>false</AutoIncrementApplicationRevision>
@@ -279,7 +279,7 @@
     <ManifestKeyFile>FAST_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>506C626A60C92BCC21B9735C3C976BE1623935B8</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>A7847859A92E42B77AF5BF9229B1DAC9579DFAC3</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
