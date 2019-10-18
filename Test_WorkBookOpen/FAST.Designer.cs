@@ -39,10 +39,8 @@
             this.tab1 = this.Factory.CreateRibbonTab();
             this.grpInformation = this.Factory.CreateRibbonGroup();
             this.label1 = this.Factory.CreateRibbonLabel();
-            this.button1 = this.Factory.CreateRibbonButton();
             this.group1 = this.Factory.CreateRibbonGroup();
             this.label2 = this.Factory.CreateRibbonLabel();
-            this.btnMenuInitialize = this.Factory.CreateRibbonMenu();
             this.grpPromoFilter = this.Factory.CreateRibbonGroup();
             this.ddnCountry = this.Factory.CreateRibbonDropDown();
             this.label7 = this.Factory.CreateRibbonLabel();
@@ -59,31 +57,33 @@
             this.separator6 = this.Factory.CreateRibbonSeparator();
             this.ddnCurrency = this.Factory.CreateRibbonDropDown();
             this.grpOperations = this.Factory.CreateRibbonGroup();
-            this.btnDownloadData = this.Factory.CreateRibbonButton();
             this.separator2 = this.Factory.CreateRibbonSeparator();
             this.separator7 = this.Factory.CreateRibbonSeparator();
-            this.btnUploadData = this.Factory.CreateRibbonButton();
             this.separator8 = this.Factory.CreateRibbonSeparator();
             this.separator3 = this.Factory.CreateRibbonSeparator();
-            this.btnRefresh = this.Factory.CreateRibbonButton();
             this.separator11 = this.Factory.CreateRibbonSeparator();
             this.separator10 = this.Factory.CreateRibbonSeparator();
-            this.btnRefreshBransonData = this.Factory.CreateRibbonButton();
             this.separator9 = this.Factory.CreateRibbonSeparator();
             this.separator4 = this.Factory.CreateRibbonSeparator();
-            this.btnContactSupport = this.Factory.CreateRibbonButton();
             this.grpReports = this.Factory.CreateRibbonGroup();
             this.label5 = this.Factory.CreateRibbonLabel();
-            this.mnuReports = this.Factory.CreateRibbonMenu();
-            this.menuVarianceReport = this.Factory.CreateRibbonMenu();
-            this.menuAuditReport = this.Factory.CreateRibbonMenu();
-            this.menuStatistics = this.Factory.CreateRibbonMenu();
             this.grpDebug = this.Factory.CreateRibbonGroup();
             this.lblUrl = this.Factory.CreateRibbonEditBox();
             this.lblAliasID = this.Factory.CreateRibbonEditBox();
             this.grpVersion = this.Factory.CreateRibbonGroup();
             this.lblVersion = this.Factory.CreateRibbonLabel();
             this.label6 = this.Factory.CreateRibbonLabel();
+            this.button1 = this.Factory.CreateRibbonButton();
+            this.btnMenuInitialize = this.Factory.CreateRibbonMenu();
+            this.btnDownloadData = this.Factory.CreateRibbonButton();
+            this.btnUploadData = this.Factory.CreateRibbonButton();
+            this.btnRefresh = this.Factory.CreateRibbonButton();
+            this.btnRefreshBransonData = this.Factory.CreateRibbonButton();
+            this.btnContactSupport = this.Factory.CreateRibbonButton();
+            this.mnuReports = this.Factory.CreateRibbonMenu();
+            this.menuVarianceReport = this.Factory.CreateRibbonMenu();
+            this.menuAuditReport = this.Factory.CreateRibbonMenu();
+            this.menuStatistics = this.Factory.CreateRibbonMenu();
             this.tab1.SuspendLayout();
             this.grpInformation.SuspendLayout();
             this.group1.SuspendLayout();
@@ -120,17 +120,6 @@
             this.label1.Label = "   ";
             this.label1.Name = "label1";
             // 
-            // button1
-            // 
-            this.button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.button1.Image = global::Test_WorkBookOpen.Properties.Resources.Logo;
-            this.button1.Label = "Amazon Devices";
-            this.button1.Name = "button1";
-            this.button1.ScreenTip = "Updates of FAST BETA 5.3";
-            this.button1.ShowImage = true;
-            this.button1.SuperTip = "Custom Addin,Dynamic Promo Operations,Included ALL option in Input Type for TCPU " +
-    "view.";
-            // 
             // group1
             // 
             this.group1.Items.Add(this.label2);
@@ -142,16 +131,6 @@
             // 
             this.label2.Label = "   ";
             this.label2.Name = "label2";
-            // 
-            // btnMenuInitialize
-            // 
-            this.btnMenuInitialize.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnMenuInitialize.Dynamic = true;
-            this.btnMenuInitialize.Image = global::Test_WorkBookOpen.Properties.Resources.excel1;
-            this.btnMenuInitialize.Label = "Connect WorkBook";
-            this.btnMenuInitialize.Name = "btnMenuInitialize";
-            this.btnMenuInitialize.ShowImage = true;
-            this.btnMenuInitialize.ItemsLoading += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnMenuInitialize_ItemsLoading);
             // 
             // grpPromoFilter
             // 
@@ -271,15 +250,6 @@
             this.grpOperations.Label = "Operations";
             this.grpOperations.Name = "grpOperations";
             // 
-            // btnDownloadData
-            // 
-            this.btnDownloadData.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnDownloadData.Image = global::Test_WorkBookOpen.Properties.Resources.download1;
-            this.btnDownloadData.Label = "Download Data";
-            this.btnDownloadData.Name = "btnDownloadData";
-            this.btnDownloadData.ShowImage = true;
-            this.btnDownloadData.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnDownloadData_Click);
-            // 
             // separator2
             // 
             this.separator2.Name = "separator2";
@@ -287,15 +257,6 @@
             // separator7
             // 
             this.separator7.Name = "separator7";
-            // 
-            // btnUploadData
-            // 
-            this.btnUploadData.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnUploadData.Image = global::Test_WorkBookOpen.Properties.Resources.upload1;
-            this.btnUploadData.Label = "Upload Data";
-            this.btnUploadData.Name = "btnUploadData";
-            this.btnUploadData.ShowImage = true;
-            this.btnUploadData.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnUploadData_Click);
             // 
             // separator8
             // 
@@ -305,15 +266,6 @@
             // 
             this.separator3.Name = "separator3";
             // 
-            // btnRefresh
-            // 
-            this.btnRefresh.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnRefresh.Image = global::Test_WorkBookOpen.Properties.Resources.refresh1;
-            this.btnRefresh.Label = "Refresh Pivot";
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.ShowImage = true;
-            this.btnRefresh.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnRefresh_Click);
-            // 
             // separator11
             // 
             this.separator11.Name = "separator11";
@@ -322,15 +274,6 @@
             // 
             this.separator10.Name = "separator10";
             // 
-            // btnRefreshBransonData
-            // 
-            this.btnRefreshBransonData.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnRefreshBransonData.Image = global::Test_WorkBookOpen.Properties.Resources.refresh1;
-            this.btnRefreshBransonData.Label = "Refresh Branson Data";
-            this.btnRefreshBransonData.Name = "btnRefreshBransonData";
-            this.btnRefreshBransonData.ShowImage = true;
-            this.btnRefreshBransonData.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnRefreshBransonData_Click);
-            // 
             // separator9
             // 
             this.separator9.Name = "separator9";
@@ -338,16 +281,6 @@
             // separator4
             // 
             this.separator4.Name = "separator4";
-            // 
-            // btnContactSupport
-            // 
-            this.btnContactSupport.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnContactSupport.Enabled = false;
-            this.btnContactSupport.Image = global::Test_WorkBookOpen.Properties.Resources.contact1;
-            this.btnContactSupport.Label = "Contact Support";
-            this.btnContactSupport.Name = "btnContactSupport";
-            this.btnContactSupport.ShowImage = true;
-            this.btnContactSupport.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnContactSupport_Click);
             // 
             // grpReports
             // 
@@ -360,6 +293,109 @@
             // 
             this.label5.Label = "   ";
             this.label5.Name = "label5";
+            // 
+            // grpDebug
+            // 
+            this.grpDebug.Items.Add(this.lblUrl);
+            this.grpDebug.Items.Add(this.lblAliasID);
+            this.grpDebug.Label = "Debug";
+            this.grpDebug.Name = "grpDebug";
+            // 
+            // lblUrl
+            // 
+            this.lblUrl.Label = "Url";
+            this.lblUrl.Name = "lblUrl";
+            this.lblUrl.Text = null;
+            // 
+            // lblAliasID
+            // 
+            this.lblAliasID.Label = "AliasID";
+            this.lblAliasID.Name = "lblAliasID";
+            this.lblAliasID.Text = null;
+            // 
+            // grpVersion
+            // 
+            this.grpVersion.Items.Add(this.lblVersion);
+            this.grpVersion.Items.Add(this.label6);
+            this.grpVersion.Label = "Version";
+            this.grpVersion.Name = "grpVersion";
+            // 
+            // lblVersion
+            // 
+            this.lblVersion.Label = "FAST BETA 5.9";
+            this.lblVersion.Name = "lblVersion";
+            // 
+            // label6
+            // 
+            this.label6.Label = "09/25/2019";
+            this.label6.Name = "label6";
+            // 
+            // button1
+            // 
+            this.button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.button1.Image = global::Test_WorkBookOpen.Properties.Resources.Logo;
+            this.button1.Label = "Amazon Devices";
+            this.button1.Name = "button1";
+            this.button1.ScreenTip = "Updates of FAST BETA 5.3";
+            this.button1.ShowImage = true;
+            this.button1.SuperTip = "Custom Addin,Dynamic Promo Operations,Included ALL option in Input Type for TCPU " +
+    "view.";
+            // 
+            // btnMenuInitialize
+            // 
+            this.btnMenuInitialize.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnMenuInitialize.Dynamic = true;
+            this.btnMenuInitialize.Image = global::Test_WorkBookOpen.Properties.Resources.excel1;
+            this.btnMenuInitialize.Label = "Connect WorkBook";
+            this.btnMenuInitialize.Name = "btnMenuInitialize";
+            this.btnMenuInitialize.ShowImage = true;
+            this.btnMenuInitialize.ItemsLoading += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnMenuInitialize_ItemsLoading);
+            // 
+            // btnDownloadData
+            // 
+            this.btnDownloadData.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnDownloadData.Image = global::Test_WorkBookOpen.Properties.Resources.download1;
+            this.btnDownloadData.Label = "Download Data";
+            this.btnDownloadData.Name = "btnDownloadData";
+            this.btnDownloadData.ShowImage = true;
+            this.btnDownloadData.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnDownloadData_Click);
+            // 
+            // btnUploadData
+            // 
+            this.btnUploadData.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnUploadData.Image = global::Test_WorkBookOpen.Properties.Resources.upload1;
+            this.btnUploadData.Label = "Upload Data";
+            this.btnUploadData.Name = "btnUploadData";
+            this.btnUploadData.ShowImage = true;
+            this.btnUploadData.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnUploadData_Click);
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnRefresh.Image = global::Test_WorkBookOpen.Properties.Resources.refresh1;
+            this.btnRefresh.Label = "Refresh Pivot";
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.ShowImage = true;
+            this.btnRefresh.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnRefresh_Click);
+            // 
+            // btnRefreshBransonData
+            // 
+            this.btnRefreshBransonData.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnRefreshBransonData.Image = global::Test_WorkBookOpen.Properties.Resources.refresh1;
+            this.btnRefreshBransonData.Label = "Refresh Branson Data";
+            this.btnRefreshBransonData.Name = "btnRefreshBransonData";
+            this.btnRefreshBransonData.ShowImage = true;
+            this.btnRefreshBransonData.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnRefreshBransonData_Click);
+            // 
+            // btnContactSupport
+            // 
+            this.btnContactSupport.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnContactSupport.Enabled = false;
+            this.btnContactSupport.Image = global::Test_WorkBookOpen.Properties.Resources.contact1;
+            this.btnContactSupport.Label = "Contact Support";
+            this.btnContactSupport.Name = "btnContactSupport";
+            this.btnContactSupport.ShowImage = true;
+            this.btnContactSupport.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnContactSupport_Click);
             // 
             // mnuReports
             // 
@@ -402,42 +438,6 @@
             this.menuStatistics.ShowImage = true;
             this.menuStatistics.Visible = false;
             this.menuStatistics.ItemsLoading += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.menuStatistics_ItemsLoading);
-            // 
-            // grpDebug
-            // 
-            this.grpDebug.Items.Add(this.lblUrl);
-            this.grpDebug.Items.Add(this.lblAliasID);
-            this.grpDebug.Label = "Debug";
-            this.grpDebug.Name = "grpDebug";
-            // 
-            // lblUrl
-            // 
-            this.lblUrl.Label = "Url";
-            this.lblUrl.Name = "lblUrl";
-            this.lblUrl.Text = null;
-            // 
-            // lblAliasID
-            // 
-            this.lblAliasID.Label = "AliasID";
-            this.lblAliasID.Name = "lblAliasID";
-            this.lblAliasID.Text = null;
-            // 
-            // grpVersion
-            // 
-            this.grpVersion.Items.Add(this.lblVersion);
-            this.grpVersion.Items.Add(this.label6);
-            this.grpVersion.Label = "Version";
-            this.grpVersion.Name = "grpVersion";
-            // 
-            // lblVersion
-            // 
-            this.lblVersion.Label = "FAST BETA 5.8";
-            this.lblVersion.Name = "lblVersion";
-            // 
-            // label6
-            // 
-            this.label6.Label = "09/25/2019";
-            this.label6.Name = "label6";
             // 
             // FAST
             // 
