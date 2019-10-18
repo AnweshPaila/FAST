@@ -322,7 +322,7 @@
             // 
             // lblVersion
             // 
-            this.lblVersion.Label = "FAST BETA 5.11";
+            this.lblVersion.Label = "Reddy Babu sunkara";
             this.lblVersion.Name = "lblVersion";
             // 
             // label6
