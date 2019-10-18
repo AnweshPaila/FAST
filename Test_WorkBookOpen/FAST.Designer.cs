@@ -322,7 +322,7 @@
             // 
             // lblVersion
             // 
-            this.lblVersion.Label = "FAST BETA 5.9";
+            this.lblVersion.Label = "FAST BETA 5.10";
             this.lblVersion.Name = "lblVersion";
             // 
             // label6
